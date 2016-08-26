@@ -13,7 +13,7 @@ public class Lab1_5 {
             sum2+=n;
         }
 
-        return (sum2*sum2)/sum1;
+        return (sum2*sum2)-sum1;
     }
 
     public static void main(String[] args) {

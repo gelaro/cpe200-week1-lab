@@ -3,9 +3,9 @@
  */
 public class Lab1_2 {
 
-    public boolean isEquals(int input_a, int input_b)
-    {
-        return (input_a == input_b)?true:false;
+    public boolean isEquals(int input_a, int input_b) {
+        if (input_a == input_b) return true;
+        return false;
     }
 
     public static void main(String[] args) {
